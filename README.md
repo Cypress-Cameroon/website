@@ -1,4 +1,4 @@
-# Cypress Cameroon — Website
+# Cypress Cameroon Website
 
 This repository contains a simple static website for Cypress Cameroon and the "International Testers Week 2026" landing pages.
 
