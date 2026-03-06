@@ -34,4 +34,4 @@ If you'd like, I can also:
 - Create separate pages (About, Events) and reuse partials.
 
 Contact
-For site updates or questions: `cy.cameroon@gmail.com` (placeholder).
+For site updates or questions: `cy.cameroon@gmail.com`.
