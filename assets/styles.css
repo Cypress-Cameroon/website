@@ -106,19 +106,19 @@ body {
 h1 { font-family: var(--serif); font-size: clamp(2rem, 4.5vw, 3.2rem); line-height: 1.1; letter-spacing: -0.015em; color: var(--navy-deep); margin-bottom: 20px; }
 h1 em { font-style: italic; color: var(--green); }
 
-.hero-lead { max-width: 560px; color: var(--muted); font-size: 1rem; line-height: 1.75; margin-bottom: 28px; }
+.hero-lead { max-width: 560px; color: var(--navy-deep); font-size: 1rem; line-height: 1.75; margin-bottom: 28px; }
 .hero-actions { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
 
 .btn-primary { display: inline-flex; align-items: center; gap: 8px; font-family: var(--mono); font-size: 0.73rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--navy-deep); background: var(--yellow); padding: 12px 26px; border-radius: 999px; text-decoration: none; font-weight: 600; transition: background 0.2s, box-shadow 0.2s, transform 0.15s; box-shadow: 0 4px 20px rgba(252,209,22,0.3); }
 .btn-primary:hover { background:#ffe040;box-shadow:0 6px 32px rgba(252,209,22,0.45);transform:translateY(-2px); }
 
-.btn-ghost { font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); text-decoration: none; border-bottom: 1px solid var(--border); padding-bottom: 2px; transition: color 0.2s, border-color 0.2s; }
+.btn-ghost { font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--navy-deep); text-decoration: none; border-bottom: 1px solid var(--border); padding-bottom: 2px; transition: color 0.2s, border-color 0.2s; }
 .btn-ghost:hover { color: var(--navy); border-color: var(--navy); }
 
 /* SECTION TITLE */
 .section-head { display: flex; align-items: center; gap: 14px; margin-bottom: 20px; animation: fadeUp 0.6s 0.1s ease both; }
 .section-head::after { content:'';flex:1;height:1px;background:var(--border); }
-.section-title { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); white-space: nowrap; }
+.section-title { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--navy-deep); white-space: nowrap; }
 
 /* CARDS */
 .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; margin-bottom: 48px; animation: fadeUp 0.6s 0.15s ease both; }
