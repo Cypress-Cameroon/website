@@ -6,7 +6,9 @@
   <title>International Testers Week 2026 — Cypress Cameroon</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/styles.css">
+  <!-- Preload stylesheet to reduce render-blocking, with noscript fallback -->
+  <link rel="preload" href="./assets/styles.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="./assets/styles.css"></noscript>
   <!-- SEO meta -->
   <meta name="description" content="Cypress Cameroon — a developer and QA community in Cameroon teaching and promoting test automation with Cypress. Join meetups, workshops, and community projects for International Testers Week 2026." />
   <meta name="keywords" content="Cypress Cameroon, Testers Week 2026, QA, Test Automation, Cypress, Workshops, Meetups, Software Testing Cameroon" />
