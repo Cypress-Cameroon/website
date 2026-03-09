@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-# Update the Sitemap URL below to your production absolute URL (e.g. https://yourdomain.com/sitemap.xml)
-Sitemap: cypresscameroon.js.org
+Sitemap: https://cypresscameroon.js.org/sitemap.xml
